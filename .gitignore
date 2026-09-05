@@ -1,0 +1,25 @@
+# ---- 数据文件（体积大 / 来源受许可限制，不入库；格式见 data/README.md） ----
+data/*.pkl
+data/*.csv
+data/*.parquet
+results/*.csv
+results/*.pkl
+
+# ---- 研报 PDF（版权原因不入库，见 docs/REFERENCES.md） ----
+docs/*.pdf
+*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- IDE / 工具 ----
+.vscode/
+.idea/
+.claude/
+
+# ---- 系统 ----
+Thumbs.db
+.DS_Store

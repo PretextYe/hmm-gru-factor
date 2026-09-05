@@ -1,0 +1,14 @@
+# 核心依赖
+numpy
+pandas
+scipy
+scikit-learn
+torch
+hmmlearn<0.3
+matplotlib
+
+# 回测 notebook 需要（RiceQuant 数据接口，需许可）
+rqdatac
+
+# evaluate.py 需要
+loguru
